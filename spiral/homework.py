@@ -1,5 +1,5 @@
-def spiralize(number):
-    y = (number - 1) / 2
-    var1 = (3 + 2 * y * (8 * y * y + 15 * y + 13)) / 3
+def spiralize(num):
+    var2 = (num - 1) / 2
+    var1 = (3 + 2 * var2 * (8 * var2 * var2 + 15 * var2 + 13)) / 3
     return_value = var1
     return return_value
