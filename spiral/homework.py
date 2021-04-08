@@ -4,7 +4,7 @@ def spiralize(number):
     z = 0
     prev_step = 0
 
-    while x <= number ** 2:  # spiralizing the array
+    while x <= pow(number, 2):  # spiralizing the array
         z += x
         x += y
         prev_step += 1
