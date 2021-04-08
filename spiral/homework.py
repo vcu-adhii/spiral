@@ -11,7 +11,7 @@ def spiralize(number):
         if prev_step == 4:
             y += 2
             prev_step = 0
-    return total
+    return z
 
 
 print(spiralize(501))
