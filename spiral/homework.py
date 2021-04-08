@@ -1,10 +1,10 @@
 def spiralize(number):
-    x = 1
+    x = 1  # myvariables
     y = 2
     z = 0
     prev_step = 0
 
-    while x <= number ** 2:
+    while x <= number ** 2:  # spiralizing the array
         z += x
         x += y
         prev_step += 1
@@ -14,4 +14,4 @@ def spiralize(number):
     return z
 
 
-print(spiralize(501))
+print(spiralize(501))  # printing solution to homework question = 83960501
